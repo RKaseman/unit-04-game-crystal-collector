@@ -1,24 +1,33 @@
 
 $(document).ready(function() {
 
+// console.log("newScore :04 is " + newScore);
     var playerTotal = 700;
     var wins = 0;
     var losses = 0;
     var targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
 
     $("#targetScore").text(targetScore);
-console.log("targetScore is " + targetScore);
+        console.log("targetScore is " + targetScore);
     $("#wins").text(wins);
     $("#losses").text(losses);
 
-    // var but1 = document.getElementById("button1");
+    var but1 = document.getElementById("button1");
     button1.setAttribute("value", Math.floor(Math.random() * (12 - 1 + 1)) + 1);
-    button1.addEventListener("click", function() {
-        var newScore = 2 + playerTotal;
+        console.log("button1 :16 is " + but1.value);
 
-// console.log("button1 is " + but1.value);
-console.log("newScore is " + newScore);
-console.log("playerTotal is " + playerTotal);
+    button1.addEventListener("click", function(newScore) {
+        // var newScore = 2 + playerTotal;
+        var x = parseInt(but1.value);
+            console.log("parseInt but1.value = " + x);
+        var y = parseInt(playerTotal);
+            console.log("parseInt playerTotal = " + y);
+        var newScore = x + y;
+            console.log("newScore = " + newScore);
+
+            console.log("button1 :26 is " + but1.value);
+            // console.log("newScore is " + newScore);
+            console.log("playerTotal is " + playerTotal);
 
         return newScore;
     })
@@ -29,7 +38,25 @@ console.log("playerTotal is " + playerTotal);
 
 });
 
+// 
 
+var that = 0;
+function go(input) {
+    return input++;
+}
+that = go(that);
+console.log(that); // 1
+
+// 
+
+// var x = myFunction(4, 3); 
+
+// function myFunction(a, b) {
+//     return a * b;   
+// }    
+// document.getElementById("demo").innerHTML = x;
+
+// 
 
 // var sum = 0;
 // // $("#score").html(sum + " Points");
@@ -51,7 +78,7 @@ console.log("playerTotal is " + playerTotal);
 //     sum = custom;
 // });
 
-
+// 
 
 // var total = 0;
 
@@ -80,7 +107,7 @@ console.log("playerTotal is " + playerTotal);
 //   document.getElementById("result").innerHTML = total;
 // }
 
-
+// 
 
   // var yourScore = document.getElementById("yourScore");
 // //var yourScore = getElementById(red, blue, yellow, green.onclick(math.sum));
