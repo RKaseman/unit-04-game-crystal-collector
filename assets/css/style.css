@@ -20,16 +20,18 @@ div {
 
 #wrapper {
     float: left;
+    min-height: 400px;
     border: 8px solid darkblue;
     border-right-color: aqua;
     border-bottom-color: aqua;
 }
 
-#canvas {
+#mycanvas {
     float: right;
     border: 8px solid darkgreen;
     border-right-color: aqua;
     border-bottom-color: aqua;
+    margin: 32px 64px;
 }
 
 .background {
