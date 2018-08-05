@@ -7,20 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector Game</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="background">
-    <header>
-        <div>
-            <h1>Crystals Collector</h1>
-        </div>
-    </header>
+        <header>
+            <div>
+                <h1>Crystals Collector</h1>
+                <h2>...choose a <em>fish??</em></h2>
+            </div>
+        </header>
+
+        <div id="wrapper">
         <div>
             <h2>Computer Target [ <span id="targetScore"></span> ]</h2>
         </div>
@@ -34,17 +38,26 @@
             <h3>Losses [ <span id="losses"></span> ]</h3>
         </div>
         <div>
-        <button id="button1">test1</button>
-        <button id="button2">test2</button>
-        <button id="button3">test3</button>
-        <button id="button4">test4</button>
+            <button id="button1">test1</button>
+            <button id="button2">test2</button>
+            <button id="button3">test3</button>
+            <button id="button4">test4</button>
         </div>
         <div>
             <h2><span id="messages">...</span></h2>
         </div>
+        </div>
+        <div id="canvas">
+            <canvas id="mycanvas"></canvas>
+        </div>
     </div>
 
     <script src="assets/javascript/game.js"></script>
+    <script src="assets/javascript/projectFishTank.js"></script>
+    <script type="application/javascript">
+        var canvas = document.getElementById("mycanvas");
+            var processingInstance = new Processing(canvas, sketchProc);
+    </script>
 
 </body>
 

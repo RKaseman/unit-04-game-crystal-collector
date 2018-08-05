@@ -1,33 +1,41 @@
 
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
     margin: auto;
 }
 
 html {
     min-height: 100%;
-    background-image: linear-gradient(#222222, #111111);
-    /* background-color: slateblue; */
+    background-image: linear-gradient(darkblue, #111111);
 }
 
 body {
     min-height: 100%;
-    color: #222222;
 }
 
 div {
-    z-index: 2;
-    margin: 64px;
-    /* opacity: 1; */
+    margin: 32px 64px;
+}
+
+#wrapper {
+    float: left;
+    border: 8px solid darkblue;
+    border-right-color: aqua;
+    border-bottom-color: aqua;
+}
+
+#canvas {
+    float: right;
+    border: 8px solid darkgreen;
+    border-right-color: aqua;
+    border-bottom-color: aqua;
 }
 
 .background {
-    background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 150, 0.5)), url("../images/cdn-britannica-700x450-12-70612-004-020B6D3F.jpg");
-    background-repeat: no-repeat;
-    /* background-blend-mode: darken; */
-    /* background: rgba(32, 32, 32, 0.25); */
-    background-position: center;
-    /* background-size: 25%; */
+    /* position: absolute; */
+    background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 150, 0.5));
+    /* background-position: center; */
     text-align: center;
     /* opacity: 0.25; */
 }
