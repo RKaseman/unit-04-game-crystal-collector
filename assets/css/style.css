@@ -12,10 +12,16 @@ html {
 
 body {
     min-height: 100%;
+    max-width: 56%
 }
 
 div {
-    margin: 32px 64px;
+    margin: 32px;
+}
+
+.background {
+    background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 150, 0.5));
+    text-align: center;
 }
 
 #wrapper {
@@ -24,21 +30,49 @@ div {
     border: 8px solid darkblue;
     border-right-color: aqua;
     border-bottom-color: aqua;
+    margin-left: 64px;
+}
+
+#divCanvas {
+    position: relative;
+    float: right;
+    opacity: 0.75;
+    background: purple;
+    margin-right: 64px;
 }
 
 #mycanvas {
-    float: right;
     border: 8px solid darkgreen;
     border-right-color: aqua;
     border-bottom-color: aqua;
-    margin: 32px 64px;
 }
 
-.background {
-    /* position: absolute; */
-    background-image: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 150, 0.5));
-    /* background-position: center; */
-    text-align: center;
-    /* opacity: 0.25; */
+button {
+    position: absolute;
+    width: 256px;
+    height: 200px;
+    opacity: 0.75;
+    background: red;
+
+}
+
+#button1 {
+    left: 8px;
+    top: 8px;
+}
+
+#button2 {
+    right: 8px;
+    top: 8px;
+}
+
+#button3 {
+    left: 8px;
+    bottom: 8px;
+}
+
+#button4 {
+    right: 8px;
+    bottom: 8px;
 }
 
