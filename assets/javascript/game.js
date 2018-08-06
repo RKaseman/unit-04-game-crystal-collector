@@ -6,9 +6,12 @@ $(document).ready(function() {
     var wins = 0;
     var losses = 0;
 
-// make this a jquery statement
+
+    // ~~!!~~
     button1.setAttribute("value", Math.floor(Math.random() * (12 - 1 + 1)) + 1);
     console.log("button1 = " + button1.value);
+    // ~~!!~~
+
 
     var x = parseInt(button1.value);
     console.log("button1.value parseInt = " + x);
@@ -22,7 +25,7 @@ $(document).ready(function() {
     $("#losses").text(losses);
     console.log("losses [ " + losses + " ]");
 
-    function reset(){
+    function reset() {
         console.log("--reset--");
         targetScore = Math.floor(Math.random() * (30 - 19 + 1)) + 19;
         $("#targetScore").text(targetScore);

@@ -17,7 +17,7 @@ body {
 }
 
 div {
-    margin: 32px;
+    margin: 16px;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h2 {
 
 h3 {
     font-size: 32px;
+    color: #006400;
 }
 
 .background {
@@ -45,13 +46,13 @@ h3 {
     border: 8px solid #00008b;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
-    margin-left: 64px;
+    margin-left: 128px;
 }
 
 #divCanvas {
     position: relative;
     float: right;
-    margin-right: 64px;
+    margin-right: 128px;
 }
 
 #mycanvas {
@@ -65,7 +66,6 @@ button {
     width: 256px;
     height: 200px;
     opacity: 0.0;
-    border: 2px solid #006400;
 }
 
 #button1 {

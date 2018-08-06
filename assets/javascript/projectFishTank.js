@@ -4,15 +4,15 @@ var sketchProc = function(processingInstance) {
         size(512, 400);
         frameRate(30);
         background(32, 192, 192);
-        strokeWeight(2);
-        stroke(16, 176, 128);
-        line(256, 0, 256, 400);
-        line(0, 200, 512, 200);
+        // strokeWeight(2);
+        // stroke(0, 0, 250);
+        // line(256, 0, 256, 400);
+        // line(0, 200, 512, 200);
 
     fishColor = color(random(255), random(255), random(255));
 
     // drawFish styleGen
-    drawFish = function (centerX, centerY, bodyLength, bodyHeight, bodyColor) {
+    drawFish = function(centerX, centerY, bodyLength, bodyHeight, bodyColor) {
         // body
         stroke(250, 250, 250);
         fill(bodyColor);
