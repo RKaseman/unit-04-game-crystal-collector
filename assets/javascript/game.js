@@ -33,7 +33,7 @@ $(document).ready(function() {
 
         button1.setAttribute("value", Math.floor(Math.random() * (12 - 1 + 1)) + 1);
         console.log("reset button1 = " + button1.value);
-
+        x = parseInt(button1.value);
         $("#playerTotal").text(playerTotal = 0);
         console.log("reset playerTotal = [ " + playerTotal + " ]");
         console.log("--------");
