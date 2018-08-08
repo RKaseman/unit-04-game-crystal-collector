@@ -16,6 +16,10 @@ body {
     max-width: 72%
 }
 
+header {
+    max-width: 72%;
+}
+
 div {
     margin: 16px;
 }
@@ -46,13 +50,13 @@ h3 {
     border: 8px solid #00008b;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
-    margin-left: 128px;
+    margin-left: 16%;
 }
 
 #divCanvas {
     position: relative;
     float: right;
-    margin-right: 128px;
+    margin-right: 16%;
 }
 
 #mycanvas {
