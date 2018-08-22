@@ -1,5 +1,10 @@
 # Unit-4-game
 
+I was right! This was fun to tweak. This project should now be fully 
+mobile responsive (I think...I never know until I know).
+
+******
+
 I'm way prouder of this submission than the last homework. Once 
 again, I know there has to be something wrong with it, but tweaks 
 to this project will be fun. The fish randomly generate shape and 
