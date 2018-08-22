@@ -1,12 +1,60 @@
 
 @media only screen and (max-width: 980px) {
 
-    header {
-        max-width: 96%;
+    h1 {
+        font-size: 8.2vw;
+    }
+
+    h2 {
+        font-size: 2.8vw;
+    }
+
+    h3 {
+        font-size: 2.6vw;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 10.2vw;
+    }
+
+    h2 {
+        font-size: 3.8vw;
+    }
+
+    h3 {
+        font-size: 3.0vw;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+    }
+
+    #mycanvas {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        width: 96%;
     }
 
     h1 {
-        font-size: 8.2vw;
+        font-size: 14.2vw;
+    }
+
+    h2 {
+        font-size: 4.8vw;
     }
 
     h3 {
@@ -15,58 +63,38 @@
 
     #wrapper, #divCanvas {
         float: none;
-        /* min-width: 96%; */
     }
 
-}
-
-@media only screen and (max-width: 768px) {
-
-    header {
-        max-width: 96%;
-    }
-
-    #wrapper {
-        width: 75%;
-        height: 50%;
-        font-size: 2.0vw;
-    }
-
-}
-
-@media only screen and (max-width: 640px) {
-
-    #html, body {
-        width: 75%;
-    }
-
-    #wrapper, #divCanvas {
-        float: none;
+    #mycanvas {
+        width: 96%;
     }
 
 }
 
 @media only screen and (max-width: 320px) {
 
-    html {
-        display: flex;
-        justify-content: center;
-    }
-
-    header {
-        justify-content: center;
+    body {
         width: 96%;
     }
 
     h1 {
-        font-size: 8.2vw;
-        color: red;
+        font-size: 14.2vw;
     }
 
-    #wrapper, #myCanvas {
+    h2 {
+        font-size: 4.8vw;
+    }
+
+    h3 {
+        font-size: 3.2vw;
+    }
+
+    #wrapper, #divCanvas {
         float: none;
-        width: 75%;
-        justify-content: center;
+    }
+    
+    #mycanvas {
+        width: 92%;
     }
 
 }
