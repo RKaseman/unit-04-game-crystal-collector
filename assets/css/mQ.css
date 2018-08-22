@@ -1,0 +1,73 @@
+
+@media only screen and (max-width: 980px) {
+
+    header {
+        max-width: 96%;
+    }
+
+    h1 {
+        font-size: 8.2vw;
+    }
+
+    h3 {
+        font-size: 3.2vw;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+        /* min-width: 96%; */
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        max-width: 96%;
+    }
+
+    #wrapper {
+        width: 75%;
+        height: 50%;
+        font-size: 2.0vw;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    #html, body {
+        width: 75%;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    html {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        justify-content: center;
+        width: 96%;
+    }
+
+    h1 {
+        font-size: 8.2vw;
+        color: red;
+    }
+
+    #wrapper, #myCanvas {
+        float: none;
+        width: 75%;
+        justify-content: center;
+    }
+
+}
+
