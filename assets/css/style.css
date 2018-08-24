@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    width: 72%;
+    width: 64%;
 }
 
 h1 {
@@ -29,6 +29,11 @@ h3 {
     color: #006400;
 }
 
+h4 {
+    font-size: 1.6vw;
+    color: #006400;
+}
+
 div {
     margin: 16px;
 }
@@ -40,7 +45,7 @@ div {
 }
 
 #widthLimiter {
-    max-width: 96%;
+    max-width: 88%;
     margin: 0px auto;
 }
 
@@ -57,38 +62,43 @@ div {
 }
 
 #mycanvas {
+    width: 96.5%;
+
     border: 8px solid #006400;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
+
+    margin: auto;
 }
 
 button {
     position: absolute;
-    width: 256px;
-    height: 200px;
+    cursor: pointer;
+    width: 40%;
+    height: 40%;
     opacity: 0.0;
 }
 
 #button1 {
-    left: 8px;
-    top: 8px;
+    left: 8%;
+    top: 8%;
 }
 
 #button2 {
-    right: 8px;
-    top: 8px;
+    right: 8%;
+    top: 8%;
     border-right-color: #00ffff;
 }
 
 #button3 {
-    left: 8px;
-    bottom: 14px;
+    left: 8%;
+    bottom: 8%;
     border-bottom-color: #00ffff;
 }
 
 #button4 {
-    right: 8px;
-    bottom: 14px;
+    right: 8%;
+    bottom: 8%;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
 }

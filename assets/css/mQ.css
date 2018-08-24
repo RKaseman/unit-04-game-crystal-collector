@@ -1,4 +1,54 @@
 
+@media only screen and (max-width: 1440px) {
+
+    h1 {
+        font-size: 10.2vw;
+    }
+
+    h2 {
+        font-size: 3.4vw;
+    }
+
+    h3 {
+        font-size: 2.4vw;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+    }
+
+    #mycanvas {
+        width: 97.7%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 12.2vw;
+    }
+
+    h2 {
+        font-size: 4.8vw;
+    }
+
+    h3 {
+        font-size: 2.8vw;
+    }
+
+    #wrapper, #divCanvas {
+        float: none;
+    }
+
+    #mycanvas {
+        width: 96.8%;
+    }
+
+}
+
+
 @media only screen and (max-width: 980px) {
 
     h1 {
@@ -15,6 +65,10 @@
 
     #wrapper, #divCanvas {
         float: none;
+    }
+
+    #mycanvas {
+        width: 96.8%;
     }
 
 }
@@ -38,7 +92,7 @@
     }
 
     #mycanvas {
-        width: 96%;
+        width: 95.6%;
     }
 
 }
@@ -61,12 +115,16 @@
         font-size: 3.2vw;
     }
 
+    h4 {
+        font-size: 4.2vw;
+    }
+
     #wrapper, #divCanvas {
         float: none;
     }
 
     #mycanvas {
-        width: 96%;
+        width: 96.6%;
     }
 
 }
@@ -89,12 +147,16 @@
         font-size: 3.2vw;
     }
 
+    h4 {
+        font-size: 3.8vw;
+    }
+
     #wrapper, #divCanvas {
         float: none;
     }
-    
+
     #mycanvas {
-        width: 92%;
+        width: 92.8%;
     }
 
 }
