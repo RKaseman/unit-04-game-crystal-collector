@@ -30,7 +30,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.6vw;
+    font-size: 1.2vw;
     color: #006400;
 }
 
@@ -45,12 +45,15 @@ div {
 }
 
 #widthLimiter {
-    max-width: 88%;
-    margin: 0px auto;
+    max-width: 80%;
+    margin: 16px auto;
 }
 
 #wrapper {
     float: left;
+
+    width: 42%;
+
     border: 8px solid #00008b;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
@@ -62,13 +65,11 @@ div {
 }
 
 #mycanvas {
-    width: 96.5%;
+    width: 100%;
 
     border: 8px solid #006400;
     border-right-color: #00ffff;
     border-bottom-color: #00ffff;
-
-    margin: auto;
 }
 
 button {
