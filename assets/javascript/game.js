@@ -115,19 +115,7 @@ $(document).ready(function () {
         playerTotal += parseBtn1;
         console.log("playerTotal " + (playerTotal));
         $("#messages").text("...waiting");
-
-        if (playerTotal === targetScore) {
-            $("#messages").text("...win!");
-            wins++;
-            $("#wins").text(wins);
-            reset();
-        }
-        else if (playerTotal >= targetScore) {
-            $("#messages").text("...try again.");
-            losses++;
-            $("#losses").text(losses);
-            reset();
-        }
+        checkScore();
     })
 
     $("#button2").on("click", function () {
@@ -136,19 +124,7 @@ $(document).ready(function () {
         playerTotal += parseBtn2;
         console.log("playerTotal " + (playerTotal));
         $("#messages").text("...waiting");
-
-        if (playerTotal === targetScore) {
-            $("#messages").text("...win!");
-            wins++;
-            $("#wins").text(wins);
-            reset();
-        }
-        else if (playerTotal >= targetScore) {
-            $("#messages").text("...try again.");
-            losses++;
-            $("#losses").text(losses);
-            reset();
-        }
+        checkScore();
     })
 
     $("#button3").on("click", function () {
@@ -157,19 +133,7 @@ $(document).ready(function () {
         playerTotal += parseBtn3;
         console.log("playerTotal " + (playerTotal));
         $("#messages").text("...waiting");
-
-        if (playerTotal === targetScore) {
-            $("#messages").text("...win!");
-            wins++;
-            $("#wins").text(wins);
-            reset();
-        }
-        else if (playerTotal >= targetScore) {
-            $("#messages").text("...try again.");
-            losses++;
-            $("#losses").text(losses);
-            reset();
-        }
+        checkScore();
     })
 
     $("#button4").on("click", function () {
@@ -178,7 +142,10 @@ $(document).ready(function () {
         playerTotal += parseBtn4;
         console.log("playerTotal " + (playerTotal));
         $("#messages").text("...waiting");
+        checkScore();
+    })
 
+    function checkScore() {
         if (playerTotal === targetScore) {
             $("#messages").text("...win!");
             wins++;
@@ -191,7 +158,7 @@ $(document).ready(function () {
             $("#losses").text(losses);
             reset();
         }
-    })
+    }
 
 });
 

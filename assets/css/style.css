@@ -11,20 +11,20 @@ html, body {
     font-family: "Shojumaru", cursive, sans-serif;
     color: #00ffff;
     text-shadow: 2px 2px 4px #000000;
-    background: linear-gradient(#00ddff, #004477) no-repeat center fixed;
+    background: linear-gradient(#00ddff, #004466) no-repeat center fixed;
 }
 
 body {
-    width: 48%;
+    width: 40%;
     margin: 16px auto;
     padding: 8px;
 }
 
 header {
-    background: linear-gradient(#00bbdd, #005588);
+    background: linear-gradient(#00aacc, #006688);
     box-shadow: 4px 4px 8px 2px #002222, -1px -1px #002222;
     text-align: center;
-    padding: 16px 64px;;
+    padding: 16px 64px;
 }
 
 .flex-container {
@@ -32,11 +32,11 @@ header {
     justify-content: center;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     margin: 8px auto;
 }
 
-h3, h4 {
+h3 {
     color: #00a800;
 }
 
@@ -51,10 +51,6 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-}
-
-h4 {
-    font-size: 1.25em;
 }
 
 div {
@@ -82,28 +78,28 @@ div {
 button {
     position: absolute;
     cursor: pointer;
-    width: 45%;
-    height: 45%;
-    opacity: 0.25;
+    width: 48.5%;
+    height: 48.5%;
+    opacity: 0.15;
 }
 
 #button1 {
-    left: 4%;
-    top: 4%;
+    left: 1%;
+    top: 1%;
 }
 
 #button2 {
-    right: 4%;
-    top: 4%;
+    right: 1%;
+    top: 1%;
 }
 
 #button3 {
-    left: 4%;
-    bottom: 4%;
+    left: 1%;
+    bottom: 1%;
 }
 
 #button4 {
-    right: 4%;
-    bottom: 4%;
+    right: 1%;
+    bottom: 1%;
 }
 
