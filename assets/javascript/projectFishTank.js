@@ -3,7 +3,7 @@ var sketchProc = function(processingInstance) {
     with (processingInstance) {
         size(512, 400);
         frameRate(30);
-        background(32, 192, 192);
+        background(0, 68, 136);
         // strokeWeight(2);
         // stroke(0, 0, 250);
         // line(256, 0, 256, 400);
@@ -29,6 +29,7 @@ var sketchProc = function(processingInstance) {
 
     // render fish on the canvas
     drawFish(162, 100, random(40, 160), random(40, 100), random(fishColor));
+    console.log(drawFish);
     drawFish(416, 100, random(40, 160), random(40, 100), random(fishColor));
     drawFish(162, 300, random(40, 160), random(40, 100), random(fishColor));
     drawFish(416, 300, random(40, 160), random(40, 100), random(fishColor));

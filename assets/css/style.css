@@ -1,105 +1,109 @@
 
 * {
-    color: #00ffff;
-    text-shadow: 4px 4px 4px #000000;
+    box-sizing: border-box;
 }
 
-html {
+em {
+    font-style: italic;
+}
+
+html, body {
     font-family: "Shojumaru", cursive, sans-serif;
-    min-height: 100%;
-    background-image: linear-gradient(#0000fa, #111111);
+    color: #00ffff;
+    text-shadow: 2px 2px 4px #000000;
+    background: linear-gradient(#00ddff, #004477) no-repeat center fixed;
 }
 
 body {
-    width: 64%;
-    margin: 0px auto;
+    width: 48%;
+    margin: 16px auto;
+    padding: 8px;
+}
+
+header {
+    background: linear-gradient(#00bbdd, #005588);
+    box-shadow: 4px 4px 8px 2px #002222, -1px -1px #002222;
+    text-align: center;
+    padding: 16px 64px;;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 8px auto;
+}
+
+h3, h4 {
+    color: #00a800;
 }
 
 h1 {
     font-family: "Italianno", cursive, sans-serif;
-    font-size: 7.2vw;
+    font-size: 5em;
 }
 
 h2 {
-    font-size: 2.4vw;
+    font-size: 1.75em;
 }
 
 h3 {
-    font-size: 1.4vw;
-    color: #006400;
+    font-size: 1.5em;
 }
 
 h4 {
-    font-size: 1.8vw;
-    color: #006400;
+    font-size: 1.25em;
 }
 
 div {
-    margin: 16px;
+    margin: 16px 0;
 }
 
-.background {
-    background-image: linear-gradient(#080844, #000096);
-    text-align: center;
-    padding: 16px;
-}
-
-#widthLimiter {
-    max-width: 80%;
-    margin: 16px auto;
-}
-
-#wrapper {
-    width: 64%;
-
-    border: 8px solid #00008b;
-    border-right-color: #00ffff;
-    border-bottom-color: #00ffff;
-
-    margin: 16px auto;
+#scoreDisplay {
+    background: #004488;
+    line-height: 32px;
+    box-shadow: 4px 4px 8px 2px #002222, -1px -1px #002222;
+    padding: 0 16px 0 16px;
 }
 
 #divCanvas {
     position: relative;
+    text-align: center;
 }
 
 #mycanvas {
-    width: 98.2%;
-
-    border: 8px solid #006400;
-    border-right-color: #00ffff;
-    border-bottom-color: #00ffff;
+    width: 100%;
+    height: 100%;
+    box-shadow: 4px 4px 8px 2px #002222, -1px -1px #002222;
 }
 
 button {
     position: absolute;
     cursor: pointer;
-    width: 40%;
-    height: 40%;
-    opacity: 0.0;
+    width: 45%;
+    height: 45%;
+    opacity: 0.25;
 }
 
 #button1 {
-    left: 8%;
-    top: 8%;
+    left: 4%;
+    top: 4%;
 }
 
 #button2 {
-    right: 8%;
-    top: 8%;
-    border-right-color: #00ffff;
+    right: 4%;
+    top: 4%;
 }
 
 #button3 {
-    left: 8%;
-    bottom: 8%;
-    border-bottom-color: #00ffff;
+    left: 4%;
+    bottom: 4%;
 }
 
 #button4 {
-    right: 8%;
-    bottom: 8%;
-    border-right-color: #00ffff;
-    border-bottom-color: #00ffff;
+    right: 4%;
+    bottom: 4%;
 }
 

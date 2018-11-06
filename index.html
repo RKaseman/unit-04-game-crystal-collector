@@ -3,64 +3,48 @@
 <html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Crystal Collector Game</title>
 
-    <!-- $ajax -->
+    <!-- processing.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso=" crossorigin="anonymous"></script>
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <!-- defaults -->
     <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
-
     <link href="https://fonts.googleapis.com/css?family=Italianno%7cShojumaru" rel="stylesheet">
-    
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
-
 </head>
 
 <body>
     <header>
-        <div class="background">
-            <h1>Crystal Collector</h1>
-            <h2>Choose a...</h2>
-            <h2><em>fish??</em></h2>
-            <h3>Click on a fish and match the computer target</h3>
-        </div>
+        <h1>Crystal Collector</h1>
+        <h2>Choose a...</h2>
+        <h2><em>fish??</em></h2>
+        <h3>Click on a fish and match the computer target</h3>
     </header>
 
-    <div id="widthLimiter">
-        <div id="wrapper">
-            <div>
-                <h4>Computer Target [ <span id="targetScore"></span> ]</h4>
-            </div>
-            <div>
-                <h4>Points [ <span id="playerTotal"></span> ]</h4>
-            </div>
-            <div>
-                <h4>Wins [ <span id="wins"></span> ]</h4>
-            </div>
-            <div>
-                <h4>Losses [ <span id="losses"></span> ]</h4>
-            </div>
-            <div>
-                <h2><span id="messages">...</span></h2>
-            </div>
+    <div class="flex-container">
+        <div id="scoreDisplay">
+            <h4>Computer Target<br/>[ <span id="targetScore"></span> ]</h4>
+            <br/>
+            <h4>Points [ <span id="playerTotal"></span> ]</h4>
+            <h4>Wins [ <span id="wins"></span> ]</h4>
+            <h4>Losses [ <span id="losses"></span> ]</h4>
+            <h2><span id="messages">...</span></h2>
         </div>
 
         <div id="divCanvas">
             <canvas id="mycanvas"></canvas>
-            <button id="button1">&nbsp;</button>
-            <button id="button2">&nbsp;</button>
-            <button id="button3">&nbsp;</button>
-            <button id="button4">&nbsp;</button>
+            <button id="button1"></button>
+            <button id="button2"></button>
+            <button id="button3"></button>
+            <button id="button4"></button>
         </div>
     </div>
 
@@ -68,7 +52,7 @@
     <script src="assets/javascript/projectFishTank.js"></script>
     <script>
         var canvas = document.getElementById("mycanvas");
-            var processingInstance = new Processing(canvas, sketchProc);
+        var processingInstance = new Processing(canvas, sketchProc);
     </script>
 
 </body>
