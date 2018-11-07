@@ -30,14 +30,11 @@ header {
 .flex-container {
     display: flex;
     justify-content: center;
+    min-height: 272px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     margin: 8px auto;
-}
-
-h3 {
-    color: #00a800;
 }
 
 h1 {
@@ -51,10 +48,19 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    color: #00a800;
+}
+
+h4 {
+    font-size: 0.8em;
 }
 
 div {
     margin: 16px 0;
+}
+
+hr {
+    border-color: #00ffff;
 }
 
 #scoreDisplay {
