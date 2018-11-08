@@ -25,24 +25,27 @@ var sketchProc = function (processingInstance) {
         };
 
         // render fish on the canvas
+        drawFish(162, 100, random(40, 160), random(40, 100), random(fishColor));
+        drawFish(416, 100, random(40, 160), random(40, 100), random(fishColor));
+        drawFish(162, 300, random(40, 160), random(40, 100), random(fishColor));
+        drawFish(416, 300, random(40, 160), random(40, 100), random(fishColor));
+
         $("#button1").click(function () {
             noStroke();
             fill(0, 68, 136);
             rect(0, 0, 256, 200);
             drawFish(162, 100, random(40, 160), random(40, 100), random(fishColor));
         });
-        drawFish(416, 100, random(40, 160), random(40, 100), random(fishColor));
-        drawFish(162, 300, random(40, 160), random(40, 100), random(fishColor));
-        drawFish(416, 300, random(40, 160), random(40, 100), random(fishColor));
 
         var y = 48;
         draw = function () {
             if (y > 0) {
                 fill(0, 68, 136);
-                rect(152, 0, 64, 56);
+                rect(160, 0, 64, 56);
                 fill(255, 0, 0);
                 ellipse(192, y, 10, 10);
-                y = y - 1;
+                ellipse(198, y - 4, 10, 10);
+                y = y - 0.5;
                 console.log("y: " + y);
             };
         };
