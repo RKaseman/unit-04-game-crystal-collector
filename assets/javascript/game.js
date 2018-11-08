@@ -10,6 +10,8 @@ $(document).ready(function () {
     var parseBtn3;
     var parseBtn4;
 
+    // reset the game
+
     function reset() {
         console.log("--reset--");
         targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
@@ -42,11 +44,11 @@ $(document).ready(function () {
         }
         console.log(parseBtn1, parseBtn2, parseBtn3, parseBtn4);
         console.log("--------");
-        
+
         $("#playerTotal").text(playerTotal = 0);
         console.log("reset playerTotal = [ " + playerTotal + " ]");
         console.log("--------");
-        
+
     }
 
     // set button1
@@ -54,7 +56,7 @@ $(document).ready(function () {
     parseBtn1 = parseInt(button1.value);
     console.log("setBtn1 : " + typeof parseBtn1, parseBtn1);
 
-    // keep trying button2 while values match
+    // set button2; keep trying if value matches 1
     $("#button2").val(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
     parseBtn2 = parseInt(button2.value);
     console.log("setBtn2 : " + typeof parseBtn2, parseBtn2);
@@ -68,7 +70,7 @@ $(document).ready(function () {
             console.log("resetbtn2(); = " + typeof parseBtn2, parseBtn2);
         };
 
-    // keep trying button3 while values match
+    // set button3; keep trying if values match 1-2
     $("#button3").val(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
     parseBtn3 = parseInt(button3.value);
     console.log("setBtn3 : " + typeof parseBtn3, parseBtn3);
@@ -82,7 +84,7 @@ $(document).ready(function () {
             console.log("resetbtn3(); = " + typeof parseBtn3, parseBtn3);
         };
 
-    // keep trying button4 while values match
+    // set button4; keep trying if values match 1-2-3
     $("#button4").val(Math.floor(Math.random() * (12 - 1 + 1)) + 1);
     parseBtn4 = parseInt(button4.value);
     console.log("setBtn4 : " + typeof parseBtn4, parseBtn4);

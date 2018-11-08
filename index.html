@@ -7,13 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal Collector Game</title>
-
     <!-- processing.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso=" crossorigin="anonymous"></script>
-
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso=" crossorigin="anonymous"></script> -->
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
     <!-- defaults -->
     <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
     <link href="https://fonts.googleapis.com/css?family=Italianno%7cShojumaru" rel="stylesheet">
@@ -39,7 +36,6 @@
             <hr />
             <h4><span id="messages">...</span></h4>
         </div>
-
         <div id="divCanvas">
             <canvas id="mycanvas"></canvas>
             <button id="button1"></button>
@@ -49,8 +45,9 @@
         </div>
     </div>
 
-    <script src="assets/javascript/game.js"></script>
-    <script src="assets/javascript/projectFishTank.js"></script>
+    <script src="./assets/javascript/processing-1.4.8.min.js"></script>
+    <script src="./assets/javascript/projectFishTank.js"></script>
+    <script src="./assets/javascript/game.js"></script>
     <script>
         var canvas = document.getElementById("mycanvas");
         var processingInstance = new Processing(canvas, sketchProc);

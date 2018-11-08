@@ -30,7 +30,7 @@ header {
 .flex-container {
     display: flex;
     justify-content: center;
-    min-height: 272px;
+    /* min-height: 272px; */
 }
 
 h1, h2, h3, h4 {
