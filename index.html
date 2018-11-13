@@ -7,15 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crystal Collector Game</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- processing.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso=" crossorigin="anonymous"></script>
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <!-- defaults -->
+    <!-- css reset -->
     <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
+    <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Italianno%7cShojumaru" rel="stylesheet">
+    <!-- custom style -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/04-game-mQ.css">
 </head>
 
 <body>
@@ -28,11 +30,11 @@
 
     <div class="flex-container">
         <div id="scoreDisplay">
-            <h3>Computer<br/>Target<br/>[ <span id="targetScore"></span> ]</h3>
+            <h3>Computer<br/>Target<br/><span id="targetScore"></span></h3>
             <hr />
-            <h3>Points<br/>[ <span id="playerTotal"></span> ]</h3>
-            <h3>Wins<br/>[ <span id="wins"></span> ]</h3>
-            <h3>Losses<br/>[ <span id="losses"></span> ]</h3>
+            <h3>Points<br/><span id="playerTotal"></span></h3>
+            <h3>Wins<br/><span id="wins"></span></h3>
+            <h3>Losses<br/><span id="losses"></span></h3>
             <hr />
             <h4><span id="messages">...</span></h4>
         </div>
@@ -46,8 +48,8 @@
     </div>
 
     <!-- <script src="./assets/javascript/processing-1.4.8.min.js"></script> -->
-    <script src="./assets/javascript/projectFishTank.js"></script>
-    <script src="./assets/javascript/game.js"></script>
+    <script src="./assets/javascript/04-anim.js"></script>
+    <script src="./assets/javascript/04-game.js"></script>
     <script>
         var canvas = $("#mycanvas")[0];
         var processingInstance = new Processing(canvas, sketchProc);
