@@ -11,7 +11,6 @@ $(document).ready(function () {
     var parseBtn4;
 
     // reset the game
-
     function reset() {
         console.log("--reset--");
         targetScore = Math.floor(Math.random() * (120 - 19 + 1)) + 19;
@@ -112,6 +111,7 @@ $(document).ready(function () {
     console.log("losses [ " + losses + " ]");
 
     $("#button1").on("click", function () {
+        clearColor();
         $("#playerTotal").text(playerTotal + parseBtn1);
         console.log("playerTotal + parseBtn1 " + (playerTotal + parseBtn1));
         playerTotal += parseBtn1;
@@ -121,6 +121,7 @@ $(document).ready(function () {
     })
 
     $("#button2").on("click", function () {
+        clearColor();
         $("#playerTotal").text(playerTotal + parseBtn2);
         console.log("playerTotal + parseBtn2 " + (playerTotal + parseBtn2));
         playerTotal += parseBtn2;
@@ -130,6 +131,7 @@ $(document).ready(function () {
     })
 
     $("#button3").on("click", function () {
+        clearColor();
         $("#playerTotal").text(playerTotal + parseBtn3);
         console.log("playerTotal + parseBtn3 " + (playerTotal + parseBtn3));
         playerTotal += parseBtn3;
@@ -139,6 +141,7 @@ $(document).ready(function () {
     })
 
     $("#button4").on("click", function () {
+        clearColor();
         $("#playerTotal").text(playerTotal + parseBtn4);
         console.log("playerTotal + parseBtn4 " + (playerTotal + parseBtn4));
         playerTotal += parseBtn4;
@@ -151,15 +154,20 @@ $(document).ready(function () {
         if (playerTotal === targetScore) {
             $("#messages").text("...win!");
             wins++;
-            $("#wins").text(wins);
+            $("#wins").text(wins).css("background-color", "green");
             reset();
         }
         else if (playerTotal >= targetScore) {
             $("#messages").text("...try again.");
             losses++;
-            $("#losses").text(losses);
+            $("#losses").text(losses).css("background-color", "red");
             reset();
         }
+    }
+
+    function clearColor() {
+        $("#wins").css("background-color", "");
+        $("#losses").css("background-color", "");
     }
 
 });

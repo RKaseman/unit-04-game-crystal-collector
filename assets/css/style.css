@@ -20,12 +20,54 @@ body {
     padding: 8px;
 }
 
+/* header colors */
 header {
-    background: linear-gradient(#00aacc, #006688);
     box-shadow: 4px 4px 8px 2px #002222, -1px -1px #002222;
     text-align: center;
     padding: 16px 64px;
+	background: linear-gradient(32deg, #006688, #007799, #00aacc, #007799, #006688);
+	background-size: 200% 200%;
+	-webkit-animation: gradient 16s ease infinite;
+	-moz-animation: gradient 16s ease infinite;
+	animation: gradient 16s ease infinite;
 }
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+/* ^ */
 
 .flex-container {
     display: flex;
