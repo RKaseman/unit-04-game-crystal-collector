@@ -2,15 +2,19 @@
 @media only screen and (max-width: 1440px) {
 
     body {
-        width: 48%;
+        width: 40%;
     }
 
+
+    header {
+        padding: 8px;
+    }
 }
 
 @media only screen and (max-width: 1224px) {
 
     body {
-        width: 56%;
+        width: 48%;
     }
 
 }
@@ -18,7 +22,7 @@
 @media only screen and (max-width: 1048px) {
 
     body {
-        width: 64%;
+        width: 56%;
     }
 
 }
@@ -26,7 +30,7 @@
 @media only screen and (max-width: 980px) {
 
     body {
-        width: 72%;
+        width: 64%;
     }
 
 }
@@ -39,23 +43,11 @@
 
 }
 
-/* @media only screen and (max-width: 648px) {
-
-    body {
-        width: 84%;
-    }
-
-} */
-
 @media only screen and (max-width: 640px) {
 
     body {
-        width: 100%;
+        width: 96%;
         padding: 0;
-    }
-
-    div {
-        margin: 0;
     }
 
 }
@@ -91,6 +83,10 @@
 }
 
 @media only screen and (max-width: 320px) {
+
+    header {
+        padding: 8px 16px;
+    }
 
     h1 {
         font-size: 2.5em;
