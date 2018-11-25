@@ -12,6 +12,8 @@
  - if the player goes over the computer total it's a loss
 - [x] When a round is over the game resets
 #
+brought to you by:
+#
 - HTML
 - CSS
 - JavaScript
