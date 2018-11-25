@@ -1,17 +1,23 @@
-# Unit-4-game - [Crystal Collector](https://rkaseman.github.io/unit-04-game-crystal-collector/)
+# Unit-4-game
 
-Update:
-This game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up more of the code, and it's entirely mobile responsive.
+[Something's Fishy: A Crystal Collector Game](https://rkaseman.github.io/unit-04-game-crystal-collector/)
 
-- - - -
+[x] The computer randomly generates a number between 19-120
+[x] Each fish is randomly worth 1-12 points
+[x] No fish is worth the same amount of points
+[x] The points are only known after a fish is clicked
+[x] Keeps player score
+- - if the player matches the computer total it's a win
+- - if the player goes over the computer total it's a loss
+[x] When a round is over the game resets
 
-This is refactored code. I added more media query sizes so it 
-behaves better.
+- Browser-based interactive game
+- HTML
+- CSS
+- JavaScript
+- JQuery
+- processing.js
 
-The fish are a processing.js sketch. They randomly generate shape 
-and color and I'll figure out how to make it happen either on every 
-click, or on game reset. For now it happens on page refresh only. I 
-fixed screen sizing issues and learned the lesson that I need to 
-consider my computer's characteristics when coding and sizing.
+I incorporate [processing.js](http://processingjs.org/) in my projects whenever I can.
 
-Don't let size get out of control!
+After research and refactoring, the game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up more of the code, and it's mobile responsive.
