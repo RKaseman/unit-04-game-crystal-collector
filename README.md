@@ -20,4 +20,4 @@
 #
 I incorporate [processing.js](http://processingjs.org/) in my projects whenever I can.
 
-After research and refactoring, the game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up more of the code, and it's mobile responsive.
+After research and refactoring, the game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up the code, and it's mobile responsive.
