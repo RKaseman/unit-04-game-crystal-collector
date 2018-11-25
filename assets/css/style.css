@@ -15,7 +15,7 @@ html, body {
 }
 
 body {
-    width: 32%;
+    width: 640px;
     box-shadow: 4px 4px 16px #000022, 0px 0px 16px #000022;
     border: 4px solid #002266;
     margin: 16px auto;

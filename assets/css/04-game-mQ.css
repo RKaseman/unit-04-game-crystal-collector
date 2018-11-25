@@ -1,117 +1,62 @@
 
-@media only screen and (max-width: 1440px) {
-
-    body {
-        width: 40%;
-    }
-
-
+@media only screen and (max-width: 980px) {
     header {
         padding: 8px;
     }
 }
 
-@media only screen and (max-width: 1224px) {
-
-    body {
-        width: 48%;
-    }
-
-}
-
-@media only screen and (max-width: 1048px) {
-
-    body {
-        width: 56%;
-    }
-
-}
-
-@media only screen and (max-width: 980px) {
-
-    body {
-        width: 64%;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    body {
-        width: 80%;
-    }
-
-}
-
 @media only screen and (max-width: 640px) {
-
     body {
         width: 96%;
         padding: 0;
     }
-
 }
 
 @media only screen and (max-width: 448px) {
-
     header {
         padding: 8px 32px;
     }
-
     h1 {
         font-size: 3.2em;
     }
-
     h2 {
         font-size: 1.05em;
     }
-
     h3 {
         font-size: 1.0em;
     }
-
     #scoreDisplay {
         line-height: 24px;
         padding: 0 8px 0 8px;
     }
-
     button {
         width: 48.0%;
         height: 48.0%;
     }
-
 }
 
 @media only screen and (max-width: 320px) {
-
     header {
         padding: 8px 16px;
     }
-
     h1 {
         font-size: 2.5em;
     }
-
     h2 {
         font-size: 1.05em;
     }
-
     h3 {
         font-size: 0.8em;
     }
-
     #scoreDisplay {
         line-height: 18px;
     }
-
     #targetScore, #playerTotal, #wins, #losses {
         padding: 0px 16px;
     }
-
     button {
         width: 47.5%;
         height: 47.5%;
     }
-
 }
 
