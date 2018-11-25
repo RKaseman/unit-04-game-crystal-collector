@@ -8,8 +8,8 @@
 - [x] No fish is worth the same amount of points
 - [x] The points are only known after a fish is clicked
 - [x] Keeps player score
- - if the player matches the computer total it's a win
- - if the player goes over the computer total it's a loss
+  - if the player matches the computer total it's a win
+  - if the player goes over the computer total it's a loss
 - [x] When a round is over the game resets
 #
 brought to you by:
