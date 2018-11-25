@@ -23,6 +23,6 @@ brought to you by:
 #
 I incorporate [processing.js](http://processingjs.org/) in my projects whenever I can. In this case, the animated fish.
 
-I added a moving gradient color effect to the header and restyled it somewhat from what I turned in for class.
+I added a moving gradient color effect to the header and restyled it somewhat from how it originally looked.
 
 After research and refactoring, the game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up the code, and it's mobile responsive.
