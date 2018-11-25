@@ -13,7 +13,7 @@
 - [x] When a round is over the game resets
 #
 brought to you by:
-#
+
 - HTML
 - CSS
 - JavaScript
