@@ -14,14 +14,14 @@
 - [x] When a round is over the game resets
 #
 brought to you by:
-- *HTML*
-- *CSS*
-- *JavaScript*
-- *JQuery*
-- *processing.js*
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **JQuery**
+- **processing.js**
 #
 I incorporate [processing.js](http://processingjs.org/) in my projects whenever I can. In this case, the animated fish.
 
-The moving gradient color effect of the header is pure *CSS* and the whole game was restyled somewhat from how it originally looked.
+The moving gradient color effect of the header is pure **CSS** and the whole game was restyled somewhat from how it originally looked.
 
 After research and refactoring, the game now looks and behaves like I envisioned in the beginning. The fish randomize appearance when they're clicked. I cleaned up the code, and it's mobile responsive.
