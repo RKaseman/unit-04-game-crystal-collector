@@ -1,4 +1,4 @@
-# Unit-4-game
+# unit-04-game
 
 [Something's Fishy: A Crystal Collector Game](https://rkaseman.github.io/unit-04-game-crystal-collector/)
 
