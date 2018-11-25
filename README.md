@@ -20,7 +20,7 @@ brought to you by:
 - **JQuery**
 - **processing.js**
 #
-I incorporate [processing.js](http://processingjs.org/) in my projects whenever I can. In this case, the animated fish.
+I incorporate **[processing.js](http://processingjs.org/)** in my projects whenever I can. In this case, the animated fish.
 
 The moving gradient color effect of the header is pure **CSS** and the whole game was restyled somewhat from how it originally looked.
 
