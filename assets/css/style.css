@@ -16,6 +16,7 @@ html, body {
 
 body {
     width: 640px;
+    height: 100%;
     box-shadow: 4px 4px 16px #000022, 0px 0px 16px #000022;
     border: 4px solid #002266;
     margin: 16px auto;
@@ -26,7 +27,7 @@ header {
     text-align: center;
     border: 4px solid #002266;
     padding: 16px 64px;
-	background: linear-gradient(32deg, #006688, #007799, #00aacc, #007799, #006688);
+	background: linear-gradient(32deg, #004488, #005599, #00aacc, #005599, #004488);
 	background-size: 200% 200%;
 	-webkit-animation: gradient 16s ease infinite;
 	-moz-animation: gradient 16s ease infinite;
@@ -80,12 +81,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-family: "Italianno", cursive, sans-serif;
-    font-size: 5em;
+    font-size: 2.5em;
 }
 
 h2 {
-    font-size: 1.75em;
+    font-family: "Italianno", cursive, sans-serif;
+    font-size: 2.5em;
 }
 
 h3 {
